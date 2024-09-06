@@ -8,11 +8,11 @@ I plan only to support **Python** through [Jupyter notebooks](https://jupyter.or
 
 ## What it does
 
-The script (`create.sh`) provides a simple way to generate a project with the necessary boilerplate to visualize data structures. You can modify this script to your liking, and add new data structures/customize naming conventions. I wanted this project to be as extensible as possible, so I decided on using bash in preference of building a "proper" CLI program. The directories and paths this scripts point to are defined in variables at the top of the script in `SCREAMING_SNAKE_CASE`.
+The script (`create.sh`) provides a simple way to generate a project with the necessary boilerplate to visualize data structures. You can modify this script to your liking, and add new data structures/customize naming conventions. I wanted this project to be as extensible as possible, so I decided on using bash in preference of building a "proper" CLI program. The directories and paths `create.sh` points to are defined in variables at the top of the script in `SCREAMING_SNAKE_CASE`.
 
 ## Generated project structure
 
-Generated projects are organized into subdirectories within the top level `/projects` directory. By default, each of these subdirectories contain the instantiated templates for a month. The names of these "monthly" subdirectories are of the format **YYYY-mm**. The names of the instantiated template files are of the format **HH-MM-SS**.
+Generated projects are organized into subdirectories within the top level `/projects` directory. By default, each of these subdirectories contain the instantiated templates for a month. The names of these "monthly" subdirectories are of the format **YYYY-mm**. The names of the instantiated template files are of the format **HH-MM-SS-{data-structure}**.
 
 ### Example `/projects` structure
 
