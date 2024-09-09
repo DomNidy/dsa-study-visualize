@@ -8,7 +8,7 @@ DATA_STRUCTURE_REGISTRY=('./0-data-structures')
 
 # Data structure templates
 # (must match the name of the files in the data structure registry)
-DATA_STRUCTURE_TEMPLATES=('digraph' 'udgraph' 'binarytree')
+DATA_STRUCTURE_TEMPLATES=('digraph' 'udgraph' 'binarytree' 'leetcode')
 
 # Call this when invalid arguments (or 'help') are passed
 function show_help() {
@@ -47,7 +47,7 @@ function generate_monthly_dir_name() {
 
 # Generates name for the template after it is copied
 function generate_timestamp() {
-    date '+%H-%M-%S' # Time in HH-MM-SS format
+    date '+%d-%H-%M-%S' # Time in HH-MM-SS format
 }
 
 # Check if a valid data structure is provided
